@@ -19,7 +19,7 @@ public abstract class AbstractRepositoryTest {
                 .withDatabaseName("lms_test")
                 .withUsername("test")
                 .withPassword("test");
-        postgres.start(); 
+        postgres.start();
     }
 
     @DynamicPropertySource
