@@ -6,6 +6,7 @@ import lombok.*;
 
 import java.time.Instant;
 import java.util.*;
+import java.util.function.IntPredicate;
 
 @Entity
 @Table(name = "courses")
@@ -57,6 +58,10 @@ public class Course {
 
     public void addAssessment(Assessment assessment) {
         assessments.add(assessment);
+    }
+
+    public IntPredicate isActive() {
+        throw new UnsupportedOperationException("Unimplemented method 'isActive'");
     }
 
 }

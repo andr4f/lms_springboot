@@ -12,7 +12,7 @@
 	<artifactId>lms</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>lms</name>
-	<description>Demo project for Spring Boot</description>
+	<description>Practical Spring Boot project developed in class to build and explore a Learning Management System (LMS) using Java.</description>
 	<url/>
 	<licenses>
 		<license/>
@@ -45,12 +45,11 @@
 			<artifactId>lombok</artifactId>
 			<optional>true</optional>
 		</dependency>
-
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-web</artifactId>
+			<artifactId>spring-boot-starter-test</artifactId>
+			<scope>test</scope>
 		</dependency>
-
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-data-jpa-test</artifactId>
